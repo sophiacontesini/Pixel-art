@@ -13,35 +13,32 @@
   width: 50px;
   height: 50px;
 } 
-
 #black {
-  background-color: rgba(24, 21, 15, 0.753);
+  background-color: black;
 }
-
-#beije {
-  background-color: rgb(238, 238, 187);
-}
-
-#red {
-  background-color: rgba(155, 35, 35, 0.781);
-}
-
-#yellow {
-  background-color: yellow;
-}
-
 #blue {
-  background-color: teal;
+  background-color: rgba(112, 143, 201, 0.87);
 }
-
-#green {
-  background-color: rgb(82, 211, 82);
-}
-
-#pink {
-  background-color: pink;
-}
-
 #purple {
-  background-color: rgba(126, 79, 173, 0.884);
+  background-color: rgba(148, 73, 148, 0.815);
+}
+#pink {
+background-color: rgb(230, 97, 174);
+}
+
+#pixel-board{
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  height: 200px;
+}
+.pixel {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-color: white;
+  border: solid black 1px;
+ 
+  
 }
