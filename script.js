@@ -25,6 +25,7 @@ purple.addEventListener("click", change);
 pink.addEventListener("click", change);
 
 //8. Preencher o pixel branco com a cor selecionada na paleta
+//Recebi ajuda da Débora Serra - Turma 19/Tribo B
 function colorir(e) {
   let pintar = document.querySelector(".selected").style.backgroundColor;
   if (e.target.style.backgroundColor !== pintar) {
@@ -38,6 +39,18 @@ let pixel = document.querySelectorAll(".pixel");
 for (let p = 0; p < pixel.length; p +=1){
   pixel[p].addEventListener("click", colorir);
 }
+
+//9. Botão Limpar
+//Recebi ajuda da Débora Serra - Turma 19/Tribo B
+let botaoLimpar = document.getElementById("clear-board");
+function limpar() {
+  let limp = document.querySelectorAll(".pixel");
+  for (let i = 0; i < limp.length; i+=1){
+    limp[i].style.backgroundColor = "white";
+  }
+}
+botaoLimpar.addEventListener("click", limpar);
+
 
 
 
