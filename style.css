@@ -1,5 +1,11 @@
+body {
+
+  /* stylelint-disable-next-line function-url-quotes */
+  background-image: url(https://img.freepik.com/vetores-gratis/fundo-pastel-de-desenho-em-aquarela_23-2148481366.jpg?w=2000);
+}
+
 #title {
-  font-family:fantasy;
+  font-family: fantasy;
   font-size: 50px;
   text-align: center;
 }
@@ -7,32 +13,53 @@
 .color {
   border: black;
   border-style: solid;
-  border-width:1px;
+  border-width: 1px;
   display: inline-block;
   padding: 35px;
   width: 50px;
   height: 50px;
   border-radius: 100px;
-  
-} 
-#pixel-board{
+
+}
+
+#pixel-board {
   text-align: center;
   display: block;
   margin: auto;
   margin-top: 20px;
   height: 200px;
 }
+
 .pixel {
   width: 40px;
   height: 40px;
   display: inline-block;
   background-color: white;
-  border: solid black 1px;  
+  border: solid black 1px;
 }
 
 #clear-board {
   border-radius: 20px;
-  background-color: beige;
- 
+  background-color: rgba(53, 205, 73, 0.639);
+  width: 200px;
+  height: 30px;
+  align-self: center;
+  margin-top: 2%;
+  border: none;
+  color: aliceblue;
+
+  /* margin-left: 45%; */
 }
 
+#color-palette {
+  align-self: center;
+
+  /* margin-left: 35%; */
+  display: flex;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
